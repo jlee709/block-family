@@ -2,15 +2,20 @@
 @import "./partials/reset.scss";
 @import "./partials/Clearfix.scss";
 @import "./partials/variables.scss";
+
 // Media Query Ranges
 
+
 // Mixins
+@mixin block_font($block_font_size: 25px, $block_font_color: $dark){
+  font-size: $global_bright;
+  color: $block_font_color;
+}
 
 // Styles
 
-
 body{
-  background-color: orange;
+  background-color: red;
   text-align: center;
   color: #EEE;
 }
@@ -27,7 +32,6 @@ h2{
 
 }
 
-
 .block_family{
   max-width:350px;
   margin:auto;
@@ -38,7 +42,6 @@ h2{
   margin-bottom: 20px;
   padding: 20px;
 }
-
 
 
 
@@ -59,4 +62,3 @@ h2{
         background-color: $global_dark;
     }
 }
-
