@@ -1,7 +1,12 @@
 // Resets, Clearfix, etc
-@import "./partials/Clearfix.scss";
 @import "./partials/reset.scss";
+@import "./partials/Clearfix.scss";
+
 // Variables
+$dark-color: #08202D //dark navy
+$light-color: #E5AE72 //beige
+$bright-color: #38FD19 // neon green
+$padding-color: calc(15% + 3px);
 
 // Media Query Ranges
 
