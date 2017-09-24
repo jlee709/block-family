@@ -1,12 +1,14 @@
 // Resets, Clearfix, etc
 @import "./partials/reset.scss";
 @import "./partials/Clearfix.scss";
-@import "./partials/_variables.scss";
+@import "./partials/variables.scss";
 // Media Query Ranges
 
 // Mixins
 
 // Styles
+
+
 body{
   background-color: orange;
   text-align: center;
@@ -36,3 +38,25 @@ h2{
   margin-bottom: 20px;
   padding: 20px;
 }
+
+
+
+
+@media only screen and (min-width: 400px) {
+    body {
+        background-color: $global_bright;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: $global_light;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        background-color: $global_dark;
+    }
+}
+
